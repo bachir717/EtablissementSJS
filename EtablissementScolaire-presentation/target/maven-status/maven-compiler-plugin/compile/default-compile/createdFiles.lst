@@ -1,0 +1,9 @@
+Servlets\AjouterCours.class
+Servlets\EditerEtudiantServ.class
+Servlets\AssocierCours.class
+Servlets\AjouterNote.class
+Servlets\FormServlet.class
+Servlets\ListeCours.class
+Servlets\ConnectionServ.class
+Servlets\EditerCours.class
+Servlets\ListEtudiantServlet.class

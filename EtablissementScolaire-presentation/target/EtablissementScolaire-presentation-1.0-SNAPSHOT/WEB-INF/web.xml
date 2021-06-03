@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+<display-name>Etablissement scolaire</display-name>
+  <welcome-file-list>
+    <welcome-file>connexion.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>ListEtudiantServlet</servlet-name>
+    <servlet-class>Servlets.ListEtudiantServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjouterEtudiantServlet</servlet-name>
+    <servlet-class>Servlets.AjouterEtudiantServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>Servlets.FormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjouterCours</servlet-name>
+    <servlet-class>Servlets.AjouterCours</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListeCours</servlet-name>
+    <servlet-class>Servlets.ListeCours</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AjouterNote</servlet-name>
+    <servlet-class>Servlets.AjouterNote</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AssocierCours</servlet-name>
+    <servlet-class>Servlets.AssocierCours</servlet-class>
+  </servlet>
+</web-app>
