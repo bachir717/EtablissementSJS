@@ -26,12 +26,12 @@ pipeline {
                     bat "mvn package"
                 }
             }
-//         stage('Deploy') {
-//             steps {
-//             script {
-//              deploy adapters: [tomcat8(url: 'http://localhost:8080/', credentialsId: '')], war: '**/*.war', contextPath: '/Etablissement-scolaire'
-//             }
-//             }
-//         }
+        stage('Deploy') {
+            steps {
+            script {
+             deploy adapters: [tomcat7(credentialsId: '3d4ffaf7-a7a1-4f22-bbaa-1b03024e1c2b', path: '', url: 'http://localhost:8081/')], contextPath: '/job7ETC', war: '**/*.war'
+            }
+            }
+        }
     }
 }
